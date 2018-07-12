@@ -174,15 +174,15 @@ header.masthead .header-content h1 {
   font-size: 30px;
 }
 
-header.masthead .device-container {
+/* header.masthead .device-container {
   max-width: 325px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
-header.masthead .device-container .screen img {
+/* header.masthead .device-container .screen img {
   border-radius: 3px;
-}
+} */
 
 @media (min-width: 992px) {
   header.masthead {
@@ -198,12 +198,12 @@ header.masthead .device-container .screen img {
   header.masthead .header-content h1 {
     font-size: 50px;
   }
-  header.masthead .device-container {
+  /* header.masthead .device-container {
     max-width: 325px;
-  }
+  } */
 }
 
-section.download {
+/* section.download {
   position: relative;
   padding: 150px 0;
 }
@@ -237,7 +237,7 @@ section.download .badges .badge-link img {
   section.download h2 {
     font-size: 70px;
   }
-}
+} */
 
 section.features .section-heading {
   margin-bottom: 100px;
@@ -261,10 +261,10 @@ section.features .device-container {
   margin-bottom: 100px;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   section.features .device-container {
     margin-bottom: 0;
-  }
+  } */
 }
 
 section.features .feature-item {
@@ -437,4 +437,93 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+/* Navbar  */
+
+.navbar-avatar {
+  height: 70px;
+  width: 70px;
+}
+
+/* About Section */
+
+.about-avatar {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-avatar img {
+  width: 20vw;
+  height: auto;
+}
+
+@media (max-width: 48rem) {
+  .about-avatar img {
+    width: 50vw;
+    height: auto;
+  }
+}
+
+.svg-container {
+  text-align: center;
+}
+
+.valerie {
+  max-width: 50vw;
+  margin-top: 30vh;
+}
+
+.projects-container {
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.project {
+  width: 100vw;
+}
+
+.project-title {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.project-image {
+  margin: 0 auto;
+  max-width: 40vw;
+  padding: 3rem;
+}
+
+.project-image img {
+  max-width: 100%;
+}
+
+.project-description {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+.project-1 {
+  background: #17cbd6;
+}
+
+.project-2 {
+  background: #4d9ca3;
+}
+
+.project-3 {
+  background: #e9fdff;
+}
+
+.project-4 {
+  background: #e6f4f1;
+}
+
+.project-5 {
+  background: #17cbd6;
+}
+
+.project-6 {
+  background: #4d9ca3;
 }
