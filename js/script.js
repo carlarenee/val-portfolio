@@ -1,7 +1,7 @@
 (function($) {
   "use strict"; // Start of use strict
 
-$('.cls-1').attr("fill","red");
+
 
 })(jQuery); // End of use strict
 
